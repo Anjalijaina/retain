@@ -1,0 +1,12 @@
+---
+- name: copyplaybook
+  hosts: all
+  tasks: 
+    - name: copy_file
+      copy:
+        src: /root/abc 
+        dest: /home/ubuntu
+    - name: packaging_module
+      apt: 
+        name: git
+        state: latest

@@ -1,0 +1,14 @@
+---
+- name: assingment_to_install_Multiple_package
+  hosts: all
+  tasks: 
+    - name: Multiple_package
+      apt: 
+        name: "{{ item }}"
+        state: latest 
+      with_items:
+        - git
+        - wget
+        - maven
+        - curl  
+        - default-jre
