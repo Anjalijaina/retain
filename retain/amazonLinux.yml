@@ -1,14 +1,13 @@
 ---
-- name: copyplaybook
+- name: copy_file
   hosts: all
-  become: yes
-  tasks: 
+  tasks:
     - name: copy_file
       copy:
         src: /root/newfile
-        dest: /home/newuser
+        dest: /home/ubuntu
     - name: packaging_module
-      apt: 
+      apt:
         name: git
         state: latest
-      
+      when: ansible_os_family == "Debian"

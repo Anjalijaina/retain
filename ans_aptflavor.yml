@@ -1,0 +1,10 @@
+---
+- name: install_package
+  hosts: all
+  tasks:
+  - name: package_install
+    apt:
+      name: git
+      state: latest
+    when: ansible_os_family == "Debian"
+  

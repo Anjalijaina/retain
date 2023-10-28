@@ -1,0 +1,19 @@
+---
+- name: copy_playbook
+  hosts: all
+  become: yes
+  tasks:
+    - name: copying_file
+      copy:
+        src: newfile
+        dest: /root
+    - name: shell_command
+      shell: ls
+      register: target_ls
+      shell: cat /root/newfile
+      register: target_cat
+    - debug:
+        var: target_ls.stdout_lines
+        var: target_cat.stdout_lines
+      tags:
+        - debug

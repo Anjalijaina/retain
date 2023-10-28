@@ -1,0 +1,19 @@
+total 56
+-rw-r--r-- 1 root root    0 Oct 22 02:42 123
+-rw-r--r-- 1 root root    0 Oct 22 02:46 456
+-rw-r--r-- 1 root root    0 Oct 22 15:33 abc
+-rw-r--r-- 1 root root  164 Oct 27 16:58 ans_aptflavor.yml
+-rw------- 1 root root  239 Oct 28 12:32 ansible.yml
+-rw------- 1 root root  267 Oct 28 12:38 ass1.yml
+-rw------- 1 root root  262 Oct 25 13:52 ass2.yml
+-rw-r--r-- 1 root root  251 Oct 23 02:55 ass3.yml
+-rw------- 1 root root   34 Oct 25 05:48 exp1.yml
+-rw-r--r-- 1 root root   74 Oct 23 02:54 mul.sh
+-rw------- 1 root root  355 Oct 25 13:20 my_vault_password.yml
+-rw-r--r-- 1 root root    0 Oct 28 12:43 newfile
+-rw-r--r-- 1 root root    7 Oct 25 13:20 pass.yml
+-rw-r--r-- 1 root root    6 Oct 25 13:29 pass1.yml
+-rw------- 1 root root    7 Oct 25 16:29 password.yml
+drwxr-xr-x 4 root root 4096 Oct 23 03:20 retain
+-rw-r--r-- 1 root root  488 Oct 28 12:43 skipmodule.yml
+drwx------ 4 root root 4096 Oct  9 17:14 snap
